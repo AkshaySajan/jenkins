@@ -1,3 +1,3 @@
 FROM java:8
-ADD  target/form-java-spring-freemarker-1.5.8.RELEASE.jar form-java-spring-freemarker-1.5.8.RELEASE.jar
-ENTRYPOINT ["java","-jar","form-java-spring-freemarker-1.5.8.RELEASE.jar"]
+ADD  target/Book_WebApp-0.0.1.war Book_WebApp-0.0.1.war
+ENTRYPOINT ["java","-jar","Book_WebApp-0.0.1.war"]
